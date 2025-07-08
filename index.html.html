@@ -1,0 +1,118 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+      <form>
+  <fieldset style="background-color: 954C2E;" ><br>
+    <legend style="background-color: EFE4D2;">Personal Data</legend>
+    <fieldset style="background-color: 254D70;">
+      <legend style="background-color: EFE4D2;">Your Name:</legend>
+      <table>
+        <tr>
+          <td><lable for="fname" >First Name</lable></td>
+          <td>:</td>
+          <td><input id="fname" type="text" placeholder="enter ur firstname" name="firstname" required ></td>
+        </tr>
+        <tr>
+          <td><lable for="sname" > Second Name</lable></td>
+          <td>:</td>
+          <td><input id="sname" type="text" placeholder="enter ur secondname" name="secondname" required></td>
+        </tr>
+      </table>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    
+    <table>
+        <tr>
+            <td> <label for="phone"> Your Phone</label></td>
+            <td>:</td>
+            <td><input id="phone" type="text" placeholder="enter ur phone"  name="phone" required /></td>
+        </tr>
+        <tr>
+            <td><label for="email"> E-mail</label></td>
+            <td>:</td>
+            <td><input  id="email" placeholder="enter ur e-mail" type="email" name="email" required/></td>
+        </tr>
+        <tr>
+            <td><label for="password"> Password</label></td>
+            <td>:</td>
+            <td><input id="password" type="password" placeholder="enter ur password" name="password" required/></td>
+        </tr>
+        <tr>
+            <td> <label for="repassword">re-Password</label></td>
+            <td>:</td>
+            <td><input id="repassword" type="password" placeholder="rewrite ur password" name="repassword" required/></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <p>Choose your gender:</p>
+        <input type="radio" id="male" name="gender" value="male"  required>
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female"  required>
+        <label for="female">Female</label><br>
+
+    </table> <br>
+
+    <table >
+  <tr>
+    <td>
+      <input type="checkbox" id="student" name="status" value="student" >
+      <label for="student">Student</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" id="graduated" name="status" value="graduated" >
+      <label for="graduated">Graduated</label>
+    </td>
+  </tr>
+</table>
+<br>
+<table>
+    <select name="university" id="university" required>
+  <option value="" disabled selected>Choose your university</option>
+
+  <optgroup label="Governmental Universities">
+    <option value="cu">Cairo University</option>
+    <option value="au">Alexandria University</option>
+    <option value="tu">Tanta University</option>
+    <option value="mu">Mansoura University</option>
+    <option value="hu">Helwan University</option>
+  </optgroup>
+
+  <optgroup label="Private Universities">
+    <option value="auc">AUC (American University in Cairo)</option>
+    <option value="guc">GUC (German University in Cairo)</option>
+    <option value="bue">BUE (British University in Egypt)</option>
+    <option value="miu">MIU (Misr International University)</option>
+    <option value="must">MUST (Misr University for Science and Technology)</option>
+  </optgroup>
+
+  <optgroup label="National Universities">
+    <option value="egu">EGU (Egyptian German University)</option>
+    <option value="gouni">Galala University</option>
+    <option value="kafr">King Salman University</option>
+    <option value="ntu">New Mansoura University</option>
+    <option value="aiu">Al Alamein International University</option>
+  </optgroup>
+</select>
+
+<tr>
+    <td>
+      <input type="image" src="submit-button.png" alt="submit button" width="150"/>
+    </td>
+
+</tr>
+</table>
+
+  </fieldset>
+</form>
+
+    </body>
+</html>
